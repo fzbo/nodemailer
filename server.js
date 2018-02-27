@@ -9,8 +9,13 @@ const sgTransport = require("nodemailer-sendgrid-transport");//SENDGRID
 //SENDGRID HERE I ENTER MY SENDGRID USER NAME AND PASSWORD
 var options = {
     auth: {
+<<<<<<< HEAD
       api_user: 'pepper$18',//MUST CREAT .ENV AND .GITIGNORE SO FILE IS NOT UPLOADED THIS HIDES CREDENTIALS
       api_key:  'sendgrid$18'
+=======
+      api_user: '',//MUST CREAT .ENV AND .GITIGNORE SO FILE IS NOT UPLOADED THIS HIDES CREDENTIALS
+      api_key: ''
+>>>>>>> 14314fb156324c08ec79998d2a75b8c044fa1c11
     }
   }
 
