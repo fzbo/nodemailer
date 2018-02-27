@@ -1,0 +1,33 @@
+
+body {
+    background: url(pawsibilitylogo5.png);
+    background-position: center top; 
+    background-repeat: no-repeat;
+   
+  }
+
+  .uiform {
+      color: white;
+      display: block;
+      text-align: center;
+      
+            
+    }
+
+    .form{
+        height: 100px;
+        width: 35%;
+    }
+
+    .btn {
+        
+        background-color: #EB984E ;
+        
+        
+        
+
+    }
+    
+
+
+  

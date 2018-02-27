@@ -17,7 +17,8 @@ var options = {
   //const sendgrid = sgTransport(options);
   //const client = nodemailer.createTransport(sendgrid); //INTEGRATIONS BETWEEN NODEMAILER AND SENDGRID
 
-  const client = nodemailer.createTransport(sgTransport(options));
+  const sendgrid = sgTransport(options);
+  const client = nodemailer.createTransport(sendgrid);
 
   const email = {
     from: 'pawsibility.com',
@@ -45,7 +46,7 @@ var options = {
             }
         })//SEND EMAIL
         
-        //DUMMY EXAMPLE
+        //DUMMY EXAMPLE TO SEE IF SERVER IS LISTENING
         res.json({msg: "OK"});
     });
 
