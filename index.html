@@ -8,15 +8,12 @@
                <title>Email</title>
                <meta charset ="UTF-8">
                <meta name="viewport" content="width=device-width, initial-scale=1">
-               <!-- Latest compiled JavaScript -->
-               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
                <!--CSS Stylesheet-->
-               <link rel="stylesheet" type="text/css" href="stylesheet.css">
+               <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+               <img src = "img/pawsibilitylogo5.png" type = "img/png">
                <!-- Latest compiled and minified CSS -->
-               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-               <!-- jQuery library -->
-               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-           
+               
+              
               
            </head>
            
@@ -24,7 +21,7 @@
 
 
             <div class = "form">
-                <form class="uiform "  >
+                <form class="uiform" action = "/sendMail" method = "POST" >
                         <div class="field">
                             <label>Name</label>
                             <input required type="text" name="name" placeholder="Name"   />
@@ -35,7 +32,7 @@
                             <input required type="text" name="email" placeholder="Email"    />
                         </div>
                         
-                        <button class="btn " > Join </button>
+                        <button type='submit' class='btn btn-primary'>Submit</button>
                     </form>
                 </div>
            
@@ -43,7 +40,7 @@
                
            
                     
-           <script type="text/javascript" src="app.js"></script>
+           <script type="text/javascript" src="server.js"></script>
            
            
            </body>
